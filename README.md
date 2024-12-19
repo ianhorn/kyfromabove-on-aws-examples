@@ -7,8 +7,27 @@ This repo contains examples of how to access KyFromAbove hosted on AWS's open da
 KyFomAbove AWS [Open Data Docs](https://github.com/awslabs/open-data-docs/tree/main/docs/kyfromabove)<br>
 [KyFromAbove AWS Data Explorer](https://kyfromabove.s3.us-west-2.amazonaws.com/index.html)
 
+___
+
 Installing the AWS Command Line Interface, or [AWSCLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).  This will assist with the use of the AWS Python SDK.<br>
 **You do not need an AWS Account to install/use the CLI**
+
+Install AWSCLI and configure the environment.  In your terminal:
+```bash
+aws configure
+```
+Hit enter to skip the `AWS Access Key ID` and `AWS Secret Acces Key` if you don't have an AWS account.  For the default region, use `us-west-2` because that's where the KyFromAbove S3 is located.
+
+_Default region name_ []: `us-west-2`
+
+
+With this configuration, you can use the the [Open Registry](https://registry.opendata.aws/kyfromabove/) page to guide you through some examples.<br>
+
+`aws s3 ls --no-sign-request s3://kyfromabove/`
+
+
+___
+
 
 ## Set up your environment
 
