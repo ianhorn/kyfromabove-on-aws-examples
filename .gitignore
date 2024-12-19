@@ -5,3 +5,5 @@ venv/*
 # Psuedo-Code
 *pseudo-code*
 */tiles
+
+.DS_Store
