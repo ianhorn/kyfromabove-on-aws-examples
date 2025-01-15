@@ -3,7 +3,7 @@ This repo contains examples of how to access KyFromAbove hosted on AWS's open da
 
 ## Resources
 
-[KyFromAbove Open Data Registry on AWS](https://registry.opendata.aws/kyfromabove/)<br>
+KyFromAbove [Open Data Registry] on AWS(https://registry.opendata.aws/kyfromabove/)<br>
 KyFomAbove AWS [Open Data Docs](https://github.com/awslabs/open-data-docs/tree/main/docs/kyfromabove)<br>
 KyFromAbove [AWS Data Explorer](https://kyfromabove.s3.us-west-2.amazonaws.com/index.html)<br>
 [AWSCLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) - No AWS Account Required (Optional)<br>
