@@ -1,6 +1,5 @@
 # Variable creation of geopackage links for use in the notebooks.abs
 
-
 # DEM Tile Index Geopackage Links
 phase1dem = 'https://kyfromabove.s3-us-west-2.amazonaws.com/elevation/DEM/TileGrids/kyfromabove_phase1_5k_dem_grid.gpkg'
 phase2dem = 'https://kyfromabove.s3-us-west-2.amazonaws.com/elevation/DEM/TileGrids/kyfromabove_phase2_5k_dem_grid.gpkg'
