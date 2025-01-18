@@ -1,6 +1,9 @@
 # Python Environments
 venv
 venv/*
+__pycache__
+examples/__pycache__/constants.cpython-313.pyc
+examples/__pycache__
 
 # Psuedo-Code
 *pseudo-code*
@@ -9,3 +12,8 @@ venv/*
 .DS_Store
 
 .DS_Store
+downloads
+downloads/tiles
+downloads/tiles/*
+
+generate_requirements.sh

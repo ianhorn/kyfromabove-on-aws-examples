@@ -6,13 +6,11 @@ This repo contains examples of how to access KyFromAbove hosted on AWS's open da
 KyFromAbove [Open Data Registry](https://registry.opendata.aws/kyfromabove/) on AWS<br>
 KyFomAbove AWS [Open Data Docs](https://github.com/awslabs/open-data-docs/tree/main/docs/kyfromabove)<br>
 KyFromAbove [AWS Data Explorer](https://kyfromabove.s3.us-west-2.amazonaws.com/index.html)<br>
-[AWSCLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) - No AWS Account Required (Optional)<br>
+[AWSCLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) - No AWS Account Required (_Optional - but may be necessary because of the boto3 python module_)<br>
 <br>
 See [KyFromAbove Tile Index Geopackage Links](#kyfromabove-geopackage-links) below.
 
 ___
-
-Rea
 ## Set up your environment
 
 1. Clone this repo:
@@ -35,15 +33,18 @@ python3 -m venv venv
 source venv/Scripts/activate
 pip install -r requirements.txt
 ```
+___
+# Tutorials
 
-### Tutorials
+1. Bulk download a large Area of Interest using [Phase2 DEM](#dem) for Daniel Boone National Forest [python notebook](examples/clip_tiles_to_boundary.ipynb).
+2. Bulk download county images [python notebook](examples/bulk_download_county.ipynb) using [orthoimagery](#orthoimagery) geopackage and [kygisserver](https://kygisserver.ky.gov/arcgis) vector services.
 
-1. Clip/Download Phase2 DEM for Daniel Boone National Forest [notebook](examples/clip_tiles_to_boundary.ipynb).
+___
+### KyFromAbove Geopackage Links
 
+Copy these links to use directly in the sample notebooks\*.
 
-# KyFromAbove Geopackage Links
-
-Copy these links to use directly in the sample notebooks.
+\* _These links are also available via the [constants.py](examples/constants.py).  I set these up to be used in the tutorials._
 
 #### DEM
 
