@@ -1,0 +1,17 @@
+pip install jupyter-leaflet ipywidgets
+jupyter nbextension enable --py --sys-prefix ipyleaflet
+
+or 
+
+pip install jupyterlab
+jupyter labextension install jupyter-leaflet
+
+# Install core packages
+pip install ipywidgets jupyter-leaflet
+
+# Enable the ipyleaflet widget for Jupyter
+jupyter nbextension enable --py --sys-prefix ipyleaflet
+
+jupyter labextension install jupyter-leaflet
+
+pip install notebook jupyterlab ipywidgets jupyter-leaflet

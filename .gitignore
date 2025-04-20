@@ -17,3 +17,5 @@ downloads/tiles
 downloads/tiles/*
 
 generate_requirements.sh
+
+mbtiles-creation/data/*
