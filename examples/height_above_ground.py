@@ -40,7 +40,7 @@ json_pipe = [
         "filename":hag_filename
     },
     {
-        "type":"filters.hag_delaunay",
+        "type":"filters.hag_delaunay",  # Height Above Ground Filter 
         "allow_extrapolation":True
     },
     {
